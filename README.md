@@ -1,34 +1,28 @@
 # Cheerful
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cheerful`. To experiment with that code, run `bin/console` for an interactive prompt.
+Cheerful gem allows you to customize the color of syntax errors in the terminal logs of a Rails application, adding some fun and cheer to the development process!
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
+Cheerful has not yet been released to RubyGems.org because it is still under development and needs further testing. However, if you want to play with it you can do so by downloading and installing it locally: 
 
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+1. Add `gem 'cheerful', github: 'https://github.com/ionajosephine/cheerful', branch 'main'` to your Rail's app's gemfile.
+2. Run bundle config command in your terminal:
+       `$ cd /path/to/rails/app
+        $ bundle config --local local.cheerful /full/path/to/local/cheerful/gem`
+3. Confirm the bundle config with `$ bundle config`
+4. Run the `bundle install` command in your terminal
+5. You will notice that in the output of the bundle you'll see the source of the gem rather than just the gem name. Something similar to:
+       `Using cheerful-0.1.0 from https://github.com/ionajosephine/cheerful.git (at /full/path/to/local/cheerful/gem@git-hash)`
+6. You can now modify the gem in your local directory and the changes will also be reflected in your Rails app.
 
 ## Usage
 
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+As it is still in development the gem is not reliable in all apps or with all terminal programs however the expected behaviour is that when you have a syntax error show in your terminal logs during development it will be shown in magenta rather than the standard grey. This helps you to see quickly and clearly what type of error it is rather than straining your eyes to find the useful bit!
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/cheerful.
+Bug reports and pull requests are welcome on GitHub at https://github.com/ionajosephine/cheerful.
 
 ## License
 
