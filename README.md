@@ -2,6 +2,25 @@
 
 Cheerful gem allows you to customize the color of syntax errors in the terminal logs of a Rails application, adding some fun and cheer to the development process!
 
+### Without the Cheerful gem, normal plain logs look like this:
+
+![Plain Logs](/screenshot4.png)
+
+... see how you're squinting your eyes and needing to zoom in?
+
+![Plain Logs](/screenshot3.png)
+
+
+### But cheerful logs look like this:
+
+![Plain Logs](/screenshot2.png)
+
+Now spotting syntax errors is much more fun!
+
+![Plain Logs](/screenshot1.png)
+
+
+
 ## Installation
 
 Cheerful has not yet been released to RubyGems.org because it is still under development and needs further testing. However, if you want to play with it you can do so by downloading and installing it locally: 
