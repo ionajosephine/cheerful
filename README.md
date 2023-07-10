@@ -1,29 +1,31 @@
-# Cheerful
+# Cheerful ✨ 🌈 ✅
 
 Cheerful gem allows you to customize the color of syntax errors in the terminal logs of a Rails application, adding some fun and cheer to the development process!
 
-### Without the Cheerful gem, normal plain logs look like this:
+### Without the Cheerful gem ☹️ normal plain logs look like this:
 
 ![Plain Logs](/screenshot4.png)
 
-... see how you're squinting your eyes and needing to zoom in?
+... see how you're squinting your eyes 🧐 and needing to zoom in?
 
 ![Plain Logs](/screenshot3.png)
 
 
-### But cheerful logs look like this:
+### But cheerful logs 🤩 look like this:
 
 ![Plain Logs](/screenshot2.png)
 
-Now spotting syntax errors is much more fun!
+Now spotting syntax errors 😎 is much more fun!
 
 ![Plain Logs](/screenshot1.png)
 
 
 
-## Installation
+## Installation ⚠️
 
-Cheerful has not yet been released to RubyGems.org because it is still under development and needs further testing. However, if you want to play with it you can do so by downloading and installing it locally: 
+Cheerful has not yet been released to RubyGems.org because it is still under development and needs further testing ☢️
+
+However, if you want to play with it you can do so by downloading and installing it locally: 
 
 1. Add `gem 'cheerful', github: 'https://github.com/ionajosephine/cheerful', branch 'main'` to your Rail's app's gemfile.
 2. Run bundle config command in your terminal:
@@ -37,7 +39,8 @@ Cheerful has not yet been released to RubyGems.org because it is still under dev
 
 ## Usage
 
-As it is still in development the gem is not reliable in all apps or with all terminal programs however the expected behaviour is that when you have a syntax error show in your terminal logs during development it will be shown in magenta rather than the standard grey. This helps you to see quickly and clearly what type of error it is rather than straining your eyes to find the useful bit!
+As it is *still in development* the gem is ⚠️ not reliable in all apps or with all terminal programs. 
+However the expected behaviour is that when you have a syntax error show in your terminal logs during development it will be shown in magenta 🎀 rather than the standard grey. This helps you to see quickly and clearly what type of error it is rather than straining your eyes to find the useful bit!
 
 ## Contributing
 
