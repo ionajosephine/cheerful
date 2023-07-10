@@ -21,9 +21,9 @@ Now spotting syntax errors 😎 is much more fun!
 
 
 
-## Installation ⚠️
+## Installation 
 
-Cheerful has not yet been released to RubyGems.org because it is still under development and needs further testing ☢️
+⚠️ Cheerful has not yet been released to RubyGems.org because it is still under development and needs further testing ☢️
 
 However, if you want to play with it you can do so by downloading and installing it locally: 
 
@@ -41,6 +41,14 @@ However, if you want to play with it you can do so by downloading and installing
 
 As it is *still in development* the gem is ⚠️ not reliable in all apps or with all terminal programs. 
 However the expected behaviour is that when you have a syntax error show in your terminal logs during development it will be shown in magenta 🎀 rather than the standard grey. This helps you to see quickly and clearly what type of error it is rather than straining your eyes to find the useful bit!
+
+## Removal
+
+If you wish to remove the Cheerful gem from your Rails app:
+
+1. Run `$ bundle config --delete local.cheerful` in your terminal
+2. Delete the line referring to the cheerful gem in your Rails Gemfile
+3. Run `bundle install` in your terminal
 
 ## Contributing
 
